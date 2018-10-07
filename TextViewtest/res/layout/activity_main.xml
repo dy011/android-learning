@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical">
+
+   <TextView 
+       android:id="@+id/tv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:textColor="#AABBCC"
+       android:text="欢迎大家收看《Android开发从零开始》系列课程。感谢大家的支持。我的博客:http://blog.csdn.net/coolszy我的电话：13813813811"
+       android:singleLine="true"
+       android:ellipsize="marquee"
+       android:focusable="true"
+       android:marqueeRepeatLimit="marquee_forever"
+       android:focusableInTouchMode="true"
+       android:scrollHorizontally="true"
+       />
+   
+   <!-- android:autoLink="all"导致不能Marquee -->
+   
+   <TextView
+        android:id="@+id/tv_One"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="你整天说着日了狗日了狗，但是你却没有来，呵呵呵呵呵呵呵呵呵呵~"
+         />
+   
+   <!-- 两个跑马灯只能跑一个，为什么? TextView没有给焦点的，代码里面给， 不能给Marquee焦点，不然闪退 -->
+</LinearLayout>
+<!-- android:ellipsize="marquee" -->

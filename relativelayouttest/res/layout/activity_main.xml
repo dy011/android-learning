@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <!--  -->
+    <ImageView 
+        android:id="@+id/img1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pic1"
+        android:scaleType="centerCrop"/>
+    
+    <!--  -->
+    <ImageView 
+        android:id="@+id/img2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toLeftOf="@id/img1"
+        android:layout_centerVertical="true"
+        android:src="@drawable/pic2"
+        android:scaleType="centerCrop"/>
+    
+    <!--  -->
+    <ImageView 
+        android:id="@+id/img3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/img1"
+        android:layout_centerVertical="true"
+        android:src="@drawable/pic3"
+        android:scaleType="centerCrop"/>
+
+    <!--  -->
+    <ImageView 
+        android:id="@+id/img4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pic4"
+        android:scaleType="centerCrop"/>
+    
+    <!--  -->
+    <ImageView 
+        android:id="@+id/img5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pic5"
+        android:scaleType="centerCrop"/>
+    
+</RelativeLayout>

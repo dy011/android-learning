@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#FFFFFF"
+    android:gravity="center">
+    
+    <TextView 
+        android:id="@+id/txtWST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableTop="@drawable/wst"
+        android:drawableLeft="@drawable/wstleft"
+        android:drawableRight="@drawable/wst"
+        android:drawableBottom="@drawable/wst"
+        android:drawablePadding="0dp"
+        android:gravity="center"
+        android:text="诸葛村夫"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:textColor="#FF0000"
+        android:textSize="40sp"
+        android:background="#CCEE00"/>
+
+</RelativeLayout>

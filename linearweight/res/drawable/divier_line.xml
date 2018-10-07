@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#ffffff" 
+    >
+    
+    <size android:height="1px"/>
+    <solid android:color="@color/divider_color"/>
+    <!-- <solid android:color="#ffffff"/> -->
+    <!-- 必须设置size color才能显示出来 缺一不可 -->
+    </shape>

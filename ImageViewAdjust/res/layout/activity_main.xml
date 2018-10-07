@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical"
+    >
+
+    <!-- 正常的图片 -->
+    <ImageView 
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:src="@drawable/meinv"/>
+    
+    <!--  限制了最大宽度与高度,并且设置了调整边界来保持所显示图像的长宽比 -->
+    <ImageView 
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:adjustViewBounds="true"
+        android:maxWidth="200px"
+        android:maxHeight="200px"
+        android:src="@drawable/meinv"/>
+    
+    <!-- 保持图片的横纵比缩放,知道该图片能够显示在ImageView组件上,并将缩放好的图片显示在imageView的右下角 -->
+    <ImageView 
+        android:id="@+id/imageView3"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_margin="5px"
+        android:scaleType="fitEnd"
+        android:src="@drawable/meinv"
+        android:background="#0f0"/>
+    
+    <ImageView 
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_margin="5px"
+        android:scaleType="centerCrop"
+        android:src="@drawable/meinv"
+        android:background="#0f0"/>
+    
+    <ImageView 
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_margin="5px"
+        android:scaleType="centerInside"
+        android:src="@drawable/meinv"
+        android:background="#080"
+        />
+    
+    <ImageView 
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_margin="5px"
+        android:scaleType="fitXY"
+        android:src="@drawable/meinv"
+        android:background="#0A0"/>
+    
+    <ImageView 
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_margin="5px"
+        android:scaleType="matrix"
+        android:src="@drawable/meinv"
+        android:background="#0A0"/>
+    
+    <ImageView 
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_margin="5px"
+        android:scaleType="center"
+        android:src="@drawable/meinv"
+        android:background="#0A0"/>
+
+</LinearLayout>
+</ScrollView>

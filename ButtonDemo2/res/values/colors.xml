@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_danger_pressed">#ffd2322d</color>
+    <color name="btn_danger_edge">#ffd43f3a</color>
+    <color name="btn_danger_disabled">#a5d9534f</color>
+    <color name="btn_danger_disabled_edge">#a5d43f3a</color>
+    <color name="btn_danger">#ffd9534f</color>
+    <color name="text_font_white">#FFFFFF</color>
+</resources>

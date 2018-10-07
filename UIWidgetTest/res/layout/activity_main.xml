@@ -1,0 +1,62 @@
+<LinearLayout xmlns:listenanr="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    listenanr:layout_width="match_parent"
+    listenanr:layout_height="match_parent"
+    listenanr:orientation="vertical" >
+
+    <TextView
+        listenanr:id="@+id/text_view"
+        listenanr:layout_width="match_parent"
+        listenanr:layout_height="wrap_content"
+        listenanr:gravity="center"
+        listenanr:textSize="24sp"
+        listenanr:textColor="#00ff00"
+        listenanr:text="This is TextView" />
+    
+    <Button 
+        listenanr:id="@+id/button"
+        listenanr:layout_width="match_parent"
+        listenanr:layout_height="wrap_content"
+        listenanr:textColor="#ff0000"
+        listenanr:textSize="24sp"
+        listenanr:text="Button" />
+    
+    <EditText 
+        listenanr:id="@+id/edit_text"
+        listenanr:layout_width="match_parent"
+        listenanr:layout_height="wrap_content"
+        listenanr:hint="Type something here"
+        listenanr:maxLines="2"
+        />
+    
+    <ImageView 
+        listenanr:id="@+id/image_view"
+        listenanr:layout_width="wrap_content"
+        listenanr:layout_height="wrap_content"
+        listenanr:src="@drawable/ic_launcher"
+        />
+    
+    <ProgressBar 
+        listenanr:id="@+id/progress_bar"
+        listenanr:layout_width="match_parent"
+        listenanr:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        listenanr:max="100"
+        />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

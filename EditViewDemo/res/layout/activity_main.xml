@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:gravity="center">
+    
+
+    <EditText 
+        android:id="@+id/et_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="默认提示文本"
+        android:textColor="#95A1AA"
+        android:layout_centerInParent="true"/>
+    
+    <EditText 
+        android:id="@+id/et_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="呵呵~"
+        android:layout_below="@id/et_first"
+        android:layout_centerInParent="true"/>
+    
+    <EditText 
+        android:id="@+id/et_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*^-^~"
+        android:selectAllOnFocus="true"
+        android:layout_below="@id/et_second"
+        android:layout_centerInParent="true"
+        android:minLines="1"
+        android:maxLines="4"
+        android:capitalize="sentences"
+        android:textScaleX="1.5"
+        />
+    
+    
+    <EditText 
+        android:id="@+id/et_forth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        android:selectAllOnFocus="true"
+        android:layout_below="@id/et_third"
+        android:layout_centerInParent="true"
+        android:inputType="phone"/>
+
+</RelativeLayout>

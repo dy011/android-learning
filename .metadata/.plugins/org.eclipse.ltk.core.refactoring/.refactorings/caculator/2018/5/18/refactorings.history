@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;caculator/res/layout/activity_main.xml&apos; to &apos;activity_main_linearlayout.xml&apos;" description="Rename resource &apos;activity_main.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/activity_main.xml" name="activity_main_linearlayout.xml" stamp="1525156665372" updateReferences="true"/>
+</session>

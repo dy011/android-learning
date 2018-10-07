@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">linearweight</string>
+    <!--<string name="hello_world">Hello world!</string>  -->
+    <!--<string name="LinearLayout1">nnnn</string>  -->
+    <string name="one">1</string>
+    <string name="btn1">按钮1</string>
+    <string name="btn2">按钮2</string>
+    <string name="btn3">按钮3</string>
+    <string name="tv_phone">请输入要保存的电话号码</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_clear">清空</string>
+
+</resources>

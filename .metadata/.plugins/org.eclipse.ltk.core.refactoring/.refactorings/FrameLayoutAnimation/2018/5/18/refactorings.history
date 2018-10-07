@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.example.framelayoutanimation&apos; to &apos;com.karnect.framelayoutanimation&apos;&#x0D;&#x0A;- Original project: &apos;FrameLayoutAnimation&apos;&#x0D;&#x0A;- Original element: &apos;FrameLayoutAnimation/src/com.example.framelayoutanimation&apos;&#x0D;&#x0A;- Renamed element: &apos;FrameLayoutAnimation/src/com.karnect.framelayoutanimation&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.example.framelayoutanimation&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.example.framelayoutanimation" name="com.karnect.framelayoutanimation" qualified="false" references="true" stamp="1525143550472" textual="false" version="1.0"/>
+</session>

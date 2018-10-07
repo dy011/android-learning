@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:gravity="center">
+
+    <TextView 
+        android:id="@+id/tv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:text="www.baidu.com"
+        android:layout_centerInParent="true"
+        android:autoLink="all"
+        />
+    
+    <TextView 
+        android:id="@+id/tv_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_one"
+        android:text="13797838142"
+        android:background="#0000cc"
+        android:layout_centerInParent="true"
+        android:autoLink="all"/>
+
+</RelativeLayout>

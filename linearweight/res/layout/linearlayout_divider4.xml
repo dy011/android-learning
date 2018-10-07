@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/line_shape"
+    android:showDividers="middle"
+    android:dividerPadding="10dp"
+    android:orientation="vertical"
+    >
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawableBottom="@drawable/line_shape"
+        android:textAllCaps="false"
+        android:text="ForeverGuard"
+        />
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:divider="@drawable/line_v"
+        android:showDividers="end"
+        android:dividerPadding="2dp"
+        >
+        
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Gola"/> 
+            
+        <!-- android:gravity="center" 在button中，起不了作用   因为linearlayout设置成horizontal-->
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:divider="@drawable/line_v"
+        android:showDividers="beginning"
+        android:dividerPadding="2dp"
+        >
+        
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tizu"/>  
+    </LinearLayout>
+    
+    <!-- 这个网上的代码有问题 LinearLayout实现不了按钮居中  layout_gravity失效 -->
+    <!-- 这个网上的代码没有问题 我自嘎把LinearLayout中的gravity搞成了layout_gravity,冒搞明白它们的区别 -->
+</LinearLayout>

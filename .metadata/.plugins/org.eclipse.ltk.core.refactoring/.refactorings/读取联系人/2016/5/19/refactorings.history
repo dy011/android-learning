@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;contact_item_view.xml&apos; to &apos;layout&apos;&#x0D;&#x0A;- Original project: &apos;读取联系人&apos;&#x0D;&#x0A;- Destination element: &apos;layout&apos;&#x0D;&#x0A;- Original element: &apos;contact_item_view.xml&apos;" description="Copy file" element1="res/layout/contact_item_view.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1462432077329" target="/PhoneWarrior/res/layout" units="0" version="1.0"/>
+</session>
